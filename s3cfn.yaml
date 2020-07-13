@@ -1,0 +1,5 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: cfreate a s3 bucket
+Resources:
+  S3Bucket:
+    Type: AWS::S3::Bucket
